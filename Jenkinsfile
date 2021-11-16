@@ -16,5 +16,10 @@ pipeline {
                 echo 'Greetings from build stage'
             }
         }
+        stage ("Deploy") {
+            steps {
+                echo 'Greetings from deploy stage'
+            }
+        }
     }
 } 
